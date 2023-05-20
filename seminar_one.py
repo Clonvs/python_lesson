@@ -6,7 +6,7 @@ sum_of_numbers = 0
 
 print(f'{numbres} -> ', end='')
 
-if not 0 < int(numbres) // 100 <= 9:
+if not 0 < numbres // 100 <= 9:
     print('Число не трёхзначное')
 else:
     while numbres > 0:
